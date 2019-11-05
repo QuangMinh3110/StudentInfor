@@ -17,7 +17,11 @@
     	.a{
     		text-align: center;
     		font-size: 30px;
-    		border: 1;
+    		background-color: #32ECFD;
+    	}
+    	.b{
+    		background: #EAFB2F;
+    		font-size: 20px;
     	}
     </style>
   </head>
@@ -44,14 +48,14 @@ $pdo = new PDO("pgsql:" . sprintf(
 	//display the data 
 ?>
 
-<table class="tablebordered" align="center" border="1">
+<table class="tablebordered" align="center" border="2">
 		<thead class="theaddark">
 			<tr><th class="a" colspan="3"><b>STUDENT</b></th></tr>
 			<tr><th class="a" colspan="3"><i>Showing all Student</i></th></tr>
 			<tr>
-				<th>studentid</th>
-				<th>fullname</th>
-				<th>specialized</th>
+				<th class="b">StudentID</th>
+				<th class="b">FullName</th>
+				<th class="b">Specialized</th>
 			</tr>
 		</thead>
 		</body>
