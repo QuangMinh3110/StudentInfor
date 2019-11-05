@@ -23,6 +23,11 @@
     		font-size: 20px;
     		text-align: center;
     	}
+    	.c{
+    		background-color: #DEF448;
+    		text-align: center;
+    		font-size: 25px;
+    	}
     </style>
   </head>
 <body>
@@ -51,7 +56,7 @@ $pdo = new PDO("pgsql:" . sprintf(
 <table class="tablebordered" align="center" border="2">
 		<thead class="theaddark">
 			<tr><th class="a" colspan="3"><b>STUDENT</b></th></tr>
-			<tr><th class="a" colspan="3"><i>Showing all Student</i></th></tr>
+			<tr><th class="c" colspan="3"><i>Showing all Student</i></th></tr>
 			<tr>
 				<th class="b">StudentID</th>
 				<th class="b">FullName</th>
