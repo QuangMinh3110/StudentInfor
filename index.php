@@ -22,6 +22,11 @@
     	.b{
     		background: #EAFB2F;
     		font-size: 20px;
+    		text-align: center;
+    	}
+    	.c{
+    		background-color: #F9DDDD;
+    		font-size: 25px;
     	}
     </style>
   </head>
@@ -65,9 +70,9 @@ $pdo = new PDO("pgsql:" . sprintf(
 			?>
 			<form action="" method="post" role = "form">
 				<tr>
-					<td><?=$row["studentid"]?></td>
-					<td><?=$row["fullname"]?></td>
-					<td><?=$row["specialized"]?></td>
+					<td class="b"><?=$row["studentid"]?></td>
+					<td class="b"><?=$row["fullname"]?></td>
+					<td class="b"><?=$row["specialized"]?></td>
 				</tr>
 				</form>
 			<?php
@@ -75,6 +80,6 @@ $pdo = new PDO("pgsql:" . sprintf(
 		?>
 	</tbody>
 	</table>
-	<div class="a"><a href="Add.php" class="btn primary" role="button">Add new Student Information...</a></div>
+	<div class="c"><a href="Add.php" class="btn primary" role="button">Add new Student Information...</a></div>
 </body>
 </html>
