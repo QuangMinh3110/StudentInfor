@@ -28,6 +28,9 @@
     		text-align: center;
     		font-size: 25px;
     	}
+    	.d{
+    		text-align: center;
+    	}
     </style>
   </head>
 <body>
@@ -56,7 +59,7 @@ $pdo = new PDO("pgsql:" . sprintf(
 <table class="tablebordered" align="center" border="2">
 		<thead class="theaddark">
 			<tr><th class="a" colspan="3"><b>STUDENT</b></th></tr>
-			<tr><th class="c" colspan="3"><i>Showing all Student</i></th></tr>
+			<tr><th class="c" colspan="3"><b>Showing all Student</b></th></tr>
 			<tr>
 				<th class="b">StudentID</th>
 				<th class="b">FullName</th>
@@ -80,7 +83,7 @@ $pdo = new PDO("pgsql:" . sprintf(
 		?>
 	</tbody>
 			<tr>
-				<th colspan="3"><a href="Add.php" class="btn primary" role="button" align="center">Add new Student Information...</a></th>
+				<th colspan="3" class="d"><a href="Add.php" class="btn primary" role="button">Add new Student Information...</a></th>
 			</tr>
 	</table>
 </body>
