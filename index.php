@@ -13,11 +13,17 @@
     <!-- Material Design Bootstrap -->
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.0/css/mdb.min.css" rel="stylesheet">
     <title>Student Information Page</title>
+    <style type="text/css">
+    	.a{
+    		text-align: center;
+    		font-size: 50px;
+    	}
+    </style>
   </head>
 <body>
 
-<div align="center">Student</div>
-<div align="center">Showing all Student</div>
+<div class="a"><b>Student</b></div>
+<div class="a"><i>Showing all Student</i></div>
 <?php
 	//Refere to database 
 	$db = parse_url(getenv("DATABASE_URL"));
@@ -65,6 +71,6 @@ $pdo = new PDO("pgsql:" . sprintf(
 		?>
 	</tbody>
 	</table>
-	<a href="Add.php" class="btn primary" role="button" align="center">Add new Student Information...</a>
+	<a href="Add.php" class="btn primary" role="button" class="a">Add new Student Information...</a>
 </body>
 </html>
