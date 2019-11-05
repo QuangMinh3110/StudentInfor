@@ -13,13 +13,13 @@
 			background-color: #FF5151;
 		}
 		.c{
-			margin: left;
+			margin-right:5px;
 		}
 	</style>
 </head>
 <body>
 	<form method="post" action="doAdd.php">
-		<table align="center" border="2">
+		<table align="center" border="1">
 			<tr>
 				<th colspan="2" class="b"><b>STUDENT ADDING</b></th>
 			</tr>
