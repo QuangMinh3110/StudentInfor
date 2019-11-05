@@ -30,7 +30,7 @@
 		    'fullname' => $fullname,
 		    'specialized' => $specialized,
 		];
-		$stmt =  $pdo->prepare("DELETE FROM student WHERE studentid = :studentid");
+		$stmt =  $pdo->prepare("DELETE FROM student WHERE studentid = (:studentid)");
 		$stmt->execute($data);
 
 	 ?>
