@@ -45,8 +45,8 @@ $pdo = new PDO("pgsql:" . sprintf(
 
 <table class="tablebordered" align="center" border="1">
 		<thead class="theaddark">
-			<tr><th class="a"><b>STUDENT</b></th></tr>
-			<tr><th class="a"><i>Showing all Student</i></th></tr>
+			<tr><th class="a" colspan="3"><b>STUDENT</b></th></tr>
+			<tr><th class="a" colspan="3"><i>Showing all Student</i></th></tr>
 			<tr>
 				<th>studentid</th>
 				<th>fullname</th>
