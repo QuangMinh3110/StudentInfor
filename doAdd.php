@@ -37,9 +37,9 @@
 	 <h2 class="a">Add Complete
 	 </h2>
 	 <ul class="a">
-	 	<li><?php echo StudentID: $studentid?></li>
-	 	<li><?php echo FullName: $fullname?></li>
-	 	<li><?php echo Specialized: $specialized?></li>
+	 	<li><?php echo $studentid?></li>
+	 	<li><?php echo $fullname?></li>
+	 	<li><?php echo $specialized?></li>
 	 </ul>
 	 <a href="index.php" class="a">Return</a>
 </body>
