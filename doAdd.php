@@ -36,10 +36,10 @@
 	 ?>
 	 <h2 class="a">Add Complete
 	 </h2>
-	 <ul class="a">
-	 	<li><?php echo $studentid?></li>
-	 	<li><?php echo $fullname?></li>
-	 	<li><?php echo $specialized?></li>
+	 <ul>
+	 	<li class="a"><?php echo $studentid?></li>
+	 	<li class="a"><?php echo $fullname?></li>
+	 	<li class="a"><?php echo $specialized?></li>
 	 </ul>
 	 <div class="a"><a href="index.php">Return</a> </div>
 </body>
