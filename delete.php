@@ -1,41 +1,28 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Add complete</title>
+	<title></title>
 	<style type="text/css">
-		.a{
-			text-align: center;
-		}
+		
 	</style>
 </head>
 <body>
-	<?php 
-		$studentid = $_POST["studentid"];
-		$fullname = $_POST["fullname"];	
-		$specialized = $_POST["specialized"];
-		echo $name;
-		
-		//Refere to database 
-	   $db = parse_url(getenv("DATABASE_URL"));
-	   $pdo = new PDO("pgsql:" . sprintf(
-	        "host=%s;port=%s;user=%s;password=%s;dbname=%s",
-	        $db["host"],
-	        $db["port"],
-	        $db["user"],
-	        $db["pass"],
-	        ltrim($db["path"], "/")
-	   ));
-	   $data = [
-		    'studentid' => $studentid,
-		    'fullname' => $fullname,
-		    'specialized' => $specialized,
-		];
-		$stmt =  $pdo->prepare("DELETE FROM student where studentid = :studentid");
-		$stmt->execute($data);
-
-	 ?>
-	 <h2 class="a">Delete Complete
-	 </h2>
-	 <div class="a"><a href="index.php">Return</a> </div>
+	<form method="post" action="doAdd.php">
+		<table align="center" border="1">
+			<tr>
+				<th colspan="2" class="b"><b>STUDENT DELETE</b></th>
+			</tr>
+			<tr>
+				<th colspan="2" class="b"><b>Enter your StudentID</b></th>
+			</tr>
+			<tr>
+				<td class="a">studentid</td>
+				<td><input type="text" name="studentid"></td>
+			</tr>
+			<tr>
+				<th colspan="2"><input type="submit" name="sent"></th>
+			</tr>
+		</table>
+	</form>
 </body>
 </html>
