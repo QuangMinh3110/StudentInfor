@@ -21,9 +21,6 @@
     </style>
   </head>
 <body>
-
-<div class="a"><b>STUDENT</b></div>
-<div class="a"><i>Showing all Student</i></div>
 <?php
 	//Refere to database 
 	$db = parse_url(getenv("DATABASE_URL"));
@@ -48,6 +45,8 @@ $pdo = new PDO("pgsql:" . sprintf(
 
 <table class="tablebordered" align="center" border="1">
 		<thead class="theaddark">
+			<tr><th class="a"><b>STUDENT</b></th></tr>
+			<tr><th class="a"><i>Showing all Student</i></th></tr>
 			<tr>
 				<th>studentid</th>
 				<th>fullname</th>
