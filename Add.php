@@ -7,15 +7,15 @@
 	<form method="post" action="doAdd.php">
 		<table>
 			<tr>
-				<td>Id</td>
+				<td>StudentID</td>
 				<td><input type="text" name="StudentID"></td>
 			</tr>
 			<tr>
-				<td>Name</td>
+				<td>FullName</td>
 				<td><input type="text" name="FullName"></td>
 			</tr>
 			<tr>
-				<td>Price</td>
+				<td>Specialized</td>
 				<td><input type="text" name="Specialized"></td>
 			</tr>
 			<tr>
