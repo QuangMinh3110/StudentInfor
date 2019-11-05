@@ -30,7 +30,7 @@
 		    'fullname' => $fullname,
 		    'specialized' => $specialized,
 		];
-		$stmt =  $pdo->prepare("INSERT INTO product(studentid, fullname, specialized) VALUES (:studentid,:fullname,:specialized)");
+		$stmt =  $pdo->prepare("INSERT INTO student(studentid, fullname, specialized) VALUES (:studentid,:fullname,:specialized)");
 		$stmt->execute($data);
 
 	 ?>
