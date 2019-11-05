@@ -4,7 +4,7 @@
 	<title></title>
 	<style type="text/css">
 		.a{
-			color: #FFFFFF;
+			color: #F22525;
 			text-align: center;
 			font-size: 20px;
 		}
@@ -12,7 +12,7 @@
 </head>
 <body>
 	<form method="post" action="doAdd.php">
-		<table align="center" border="2">
+		<table align="center" border="1">
 			<tr>
 				<td class="a">studentid</td>
 				<td><input type="text" name="studentid"></td>
