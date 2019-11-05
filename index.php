@@ -22,7 +22,7 @@
   </head>
 <body>
 
-<div class="a"><b>Student</b></div>
+<div class="a"><b>STUDENT</b></div>
 <div class="a"><i>Showing all Student</i></div>
 <?php
 	//Refere to database 
@@ -46,7 +46,7 @@ $pdo = new PDO("pgsql:" . sprintf(
 	//display the data 
 ?>
 
-<table class="tablebordered" border="1">
+<table class="tablebordered" align="center" border="1">
 		<thead class="theaddark">
 			<tr>
 				<th>studentid</th>
