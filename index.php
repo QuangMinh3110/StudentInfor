@@ -16,7 +16,8 @@
     <style type="text/css">
     	.a{
     		text-align: center;
-    		font-size: 50px;
+    		font-size: 30px;
+    		border: 1;
     	}
     </style>
   </head>
