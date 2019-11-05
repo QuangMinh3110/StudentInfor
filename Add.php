@@ -3,7 +3,7 @@
 <head>
 	<title></title>
 	<style type="text/css">
-		.table{
+		.a{
 			color: #FFFFFF;
 			text-align: center;
 			font-size: 20px;
@@ -12,17 +12,17 @@
 </head>
 <body>
 	<form method="post" action="doAdd.php">
-		<table class="table" align="center" border="1">
+		<table align="center" border="2">
 			<tr>
-				<td>studentid</td>
+				<td class="a">studentid</td>
 				<td><input type="text" name="studentid"></td>
 			</tr>
 			<tr>
-				<td>fullname</td>
+				<td class="a">fullname</td>
 				<td><input type="text" name="fullname"></td>
 			</tr>
 			<tr>
-				<td>specialized</td>
+				<td class="a">specialized</td>
 				<td><input type="text" name="specialized"></td>
 			</tr>
 			<tr>
