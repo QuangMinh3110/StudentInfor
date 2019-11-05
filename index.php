@@ -71,6 +71,6 @@ $pdo = new PDO("pgsql:" . sprintf(
 		?>
 	</tbody>
 	</table>
-	<a href="Add.php" class="btn primary" role="button" class="a">Add new Student Information...</a>
+	<div class="a"><a href="Add.php" class="btn primary" role="button">Add new Student Information...</a></div>
 </body>
 </html>
