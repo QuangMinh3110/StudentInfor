@@ -7,7 +7,7 @@
 	</style>
 </head>
 <body>
-	<form method="post" action="doAdd.php">
+	<form method="post" action="doDelete.php">
 		<table align="center" border="1">
 			<tr>
 				<th colspan="2" class="b"><b>STUDENT DELETE</b></th>
