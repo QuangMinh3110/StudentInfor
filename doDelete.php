@@ -30,12 +30,12 @@
 		    'fullname' => $fullname,
 		    'specialized' => $specialized,
 		];
-		$stmt =  $pdo->prepare("DELETE FROM student where studentid = (:studentid)");
+		$stmt =  $pdo->prepare("DELETE FROM student WHERE studentid = :studentid");
 		$stmt->execute($data);
 
 	 ?>
 	 <h2 class="a">Delete Complete
 	 </h2>
-	 <div class="a"><a href="index.php">Return</a> </div>
+	 <div class="a"><a href="index.php">Return</a></div>
 </body>
 </html>
