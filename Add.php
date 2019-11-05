@@ -8,11 +8,21 @@
 			text-align: center;
 			font-size: 20px;
 		}
+		.b{
+			text-align: center;
+			background-color: #FF5151;
+		}
+		.c{
+			margin: left;
+		}
 	</style>
 </head>
 <body>
 	<form method="post" action="doAdd.php">
-		<table align="center" border="1">
+		<table align="center" border="2">
+			<tr>
+				<th colspan="2" class="b"><b>STUDENT ADDING</b></th>
+			</tr>
 			<tr>
 				<td class="a">studentid</td>
 				<td><input type="text" name="studentid"></td>
@@ -27,7 +37,7 @@
 			</tr>
 			<tr>
 				<td></td>
-				<td><input type="submit" name="saving"></td>
+				<td colspan="2" class="c"><input type="submit" name="saving"></td>
 			</tr>
 		</table>
 	</form>
