@@ -11,9 +11,7 @@
 		.b{
 			text-align: center;
 			background-color: #FF5151;
-		}
-		.c{
-			margin-right:5px;
+			font-size: 30px;
 		}
 	</style>
 </head>
@@ -36,8 +34,7 @@
 				<td><input type="text" name="specialized"></td>
 			</tr>
 			<tr>
-				<td></td>
-				<td colspan="2" class="c"><input type="submit" name="saving"></td>
+				<th colspan="2"><input type="submit" name="saving"></th>
 			</tr>
 		</table>
 	</form>
