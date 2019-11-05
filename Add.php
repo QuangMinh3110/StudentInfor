@@ -15,8 +15,8 @@
 				<td><input type="text" name="FullName"></td>
 			</tr>
 			<tr>
-				<td>Specialized</td>
-				<td><input type="text" name="Specialized"></td>
+				<td>specialized</td>
+				<td><input type="text" name="specialized"></td>
 			</tr>
 			<tr>
 				<td></td>

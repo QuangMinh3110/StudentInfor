@@ -6,8 +6,8 @@
 <body>
 	<?php 
 		$StudentID = $_POST["StudentI"];
-		$FullName = $_POST["txtFullName"];	
-		$Specialized = $_POST["Specialized"];
+		$FullName = $_POST["FullName"];	
+		$specialized = $_POST["specialized"];
 		echo $name;
 		
 		//Refere to database 
@@ -23,9 +23,9 @@
 	   $data = [
 		    'StudentID' => $StudentID,
 		    'FullName' => $FullName,
-		    'Specialized' => $Specialized,
+		    'specialized' => $specialized,
 		];
-		$stmt =  $pdo->prepare("INSERT INTO product(StudentID, FullName, Specialized) VALUES (:StudentID,:FullName,:Specialized)");	
+		$stmt =  $pdo->prepare("INSERT INTO product(StudentID, FullName, specialized) VALUES (:StudentID,:FullName,:specialized)");	
 		$stmt->execute($data);
 
 	 ?>
@@ -34,7 +34,7 @@
 	 <ul>
 	 	<li><?php echo $StudentID?></li>
 	 	<li><?php echo $FullName?></li>
-	 	<li><?php echo $Specialized?></li>
+	 	<li><?php echo $specialized?></li>
 	 </ul>
 	 <a href="index.php">Return</a>
 </body>
