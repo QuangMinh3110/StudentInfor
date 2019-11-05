@@ -2,10 +2,17 @@
 <html>
 <head>
 	<title></title>
+	<style type="text/css">
+		.table{
+			color: #FFFFFF;
+			text-align: center;
+			font-size: 20px;
+		}
+	</style>
 </head>
 <body>
 	<form method="post" action="doAdd.php">
-		<table>
+		<table class="table" align="center" border="1">
 			<tr>
 				<td>studentid</td>
 				<td><input type="text" name="studentid"></td>
