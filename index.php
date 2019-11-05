@@ -16,11 +16,9 @@
   </head>
 <body>
 
-<h1>Student</h1>
-
+<div align="center">Student</div>
+<div align="center">Showing all Student</div>
 <?php
-	echo "Showing all Student";
-	
 	//Refere to database 
 	$db = parse_url(getenv("DATABASE_URL"));
 
@@ -67,6 +65,6 @@ $pdo = new PDO("pgsql:" . sprintf(
 		?>
 	</tbody>
 	</table>
-	<a href="Add.php" class="btn primary" role="button">Add new Student Information...</a>
+	<a href="Add.php" class="btn primary" role="button" align="center">Add new Student Information...</a>
 </body>
 </html>
