@@ -20,13 +20,8 @@
     		background-color: #32ECFD;
     	}
     	.b{
-    		background: #EAFB2F;
     		font-size: 20px;
     		text-align: center;
-    	}
-    	.c{
-    		background-color: #F9DDDD;
-    		font-size: 25px;
     	}
     </style>
   </head>
@@ -79,7 +74,9 @@ $pdo = new PDO("pgsql:" . sprintf(
 		}
 		?>
 	</tbody>
+			<tr>
+				<th colspan="3"><a href="Add.php" class="btn primary" role="button">Add new Student Information...</a></th>
+			</tr>
 	</table>
-	<div class="c"><a href="Add.php" class="btn primary" role="button">Add new Student Information...</a></div>
 </body>
 </html>
