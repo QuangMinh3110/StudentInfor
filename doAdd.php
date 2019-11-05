@@ -41,6 +41,6 @@
 	 	<li><?php echo $fullname?></li>
 	 	<li><?php echo $specialized?></li>
 	 </ul>
-	 <a href="index.php" class="a">Return</a>
+	 <div class="a"><a href="index.php">Return</a> </div>
 </body>
 </html>
