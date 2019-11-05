@@ -75,7 +75,7 @@ $pdo = new PDO("pgsql:" . sprintf(
 		?>
 	</tbody>
 			<tr>
-				<th colspan="3"><a href="Add.php" class="btn primary" role="button">Add new Student Information...</a></th>
+				<th colspan="3" align="center"><a href="Add.php" class="btn primary" role="button">Add new Student Information...</a></th>
 			</tr>
 	</table>
 </body>
