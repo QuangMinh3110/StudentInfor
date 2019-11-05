@@ -45,8 +45,8 @@ $pdo = new PDO("pgsql:" . sprintf(
 <table class="tablebordered">
 		<thead class="theaddark">
 			<tr>
-				<th>StudentID</th>
-				<th>FullName</th>
+				<th>studentid</th>
+				<th>fullname</th>
 				<th>specialized</th>
 			</tr>
 		</thead>
@@ -57,8 +57,8 @@ $pdo = new PDO("pgsql:" . sprintf(
 			?>
 			<form action="" method="post" role = "form">
 				<tr>
-					<td><?=$row["StudentID"]?></td>
-					<td><?=$row["FullName"]?></td>
+					<td><?=$row["studentid"]?></td>
+					<td><?=$row["fullname"]?></td>
 					<td><?=$row["specialized"]?></td>
 				</tr>
 				</form>

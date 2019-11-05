@@ -7,12 +7,12 @@
 	<form method="post" action="doAdd.php">
 		<table>
 			<tr>
-				<td>StudentID</td>
-				<td><input type="text" name="StudentID"></td>
+				<td>studentid</td>
+				<td><input type="text" name="studentid"></td>
 			</tr>
 			<tr>
-				<td>FullName</td>
-				<td><input type="text" name="FullName"></td>
+				<td>fullname</td>
+				<td><input type="text" name="fullname"></td>
 			</tr>
 			<tr>
 				<td>specialized</td>
@@ -20,7 +20,7 @@
 			</tr>
 			<tr>
 				<td></td>
-				<td><input type="submit" name="Saving"></td>
+				<td><input type="submit" name="saving"></td>
 			</tr>
 		</table>
 	</form>

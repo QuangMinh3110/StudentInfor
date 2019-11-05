@@ -5,8 +5,8 @@
 </head>
 <body>
 	<?php 
-		$StudentID = $_POST["StudentI"];
-		$FullName = $_POST["FullName"];	
+		$studentid = $_POST["studentid"];
+		$fullname = $_POST["fullname"];	
 		$specialized = $_POST["specialized"];
 		echo $name;
 		
@@ -21,19 +21,19 @@
 	        ltrim($db["path"], "/")
 	   ));
 	   $data = [
-		    'StudentID' => $StudentID,
-		    'FullName' => $FullName,
+		    'studentid' => $studentid,
+		    'fullname' => $fullname,
 		    'specialized' => $specialized,
 		];
-		$stmt =  $pdo->prepare("INSERT INTO product(StudentID, FullName, specialized) VALUES (:StudentID,:FullName,:specialized)");	
+		$stmt =  $pdo->prepare("INSERT INTO product(studentid, fullname, specialized) VALUES (:studentid,:fullname,:specialized)");	
 		$stmt->execute($data);
 
 	 ?>
 	 <h2>Add complete
 	 </h2>
 	 <ul>
-	 	<li><?php echo $StudentID?></li>
-	 	<li><?php echo $FullName?></li>
+	 	<li><?php echo $studentid?></li>
+	 	<li><?php echo $fullname?></li>
 	 	<li><?php echo $specialized?></li>
 	 </ul>
 	 <a href="index.php">Return</a>
